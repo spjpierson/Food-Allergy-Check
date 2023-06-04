@@ -2,6 +2,7 @@ package com.example.foodallergycheck;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -39,7 +40,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if(updateAndAddButton.getId() == view.getId()){
-            Toast.makeText(this.getApplicationContext(),"AddButton was press",Toast.LENGTH_LONG).show();
+            // Open the form activity
+            Intent intent = new Intent(MainActivity.this, AddFoodActivity.class);
+            startActivity(intent);
         }
     }
 }
