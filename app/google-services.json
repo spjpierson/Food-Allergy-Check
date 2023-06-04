@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367143625937",
+    "project_id": "food-allergy-check",
+    "storage_bucket": "food-allergy-check.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367143625937:android:bca3b1d4850ce9445491f0",
+        "android_client_info": {
+          "package_name": "com.example.foodallergycheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367143625937-0h8ee7fejugum0bor21epncnunuer7kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjABAuX4RFJ7L8-PF4oV1aWyn0kDN17zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367143625937-0h8ee7fejugum0bor21epncnunuer7kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
